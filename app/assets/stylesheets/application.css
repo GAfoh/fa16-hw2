@@ -13,3 +13,37 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap";
+
+body {
+   font-family: Helvetica, Geneva, Arial, sans-serif;
+   font-size: small;
+   font-color: #000;
+   background-color: #fff;
+}
+
+a:link, a:active, a:visited {
+   color: #CD0000;
+}
+
+
+.red-text {
+	color: red;
+}
+.white-text {
+	color:white;
+}
+.blue-text{
+	color: blue;
+}
+
+.bg-success {
+	background-color: green;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
